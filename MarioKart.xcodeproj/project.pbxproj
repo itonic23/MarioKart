@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0D152600223328FA00815D5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1525FF223328FA00815D5E /* AppDelegate.swift */; };
-		0D152602223328FA00815D5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D152601223328FA00815D5E /* ViewController.swift */; };
 		0D152605223328FA00815D5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D152603223328FA00815D5E /* Main.storyboard */; };
 		0D152607223328FB00815D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D152606223328FB00815D5E /* Assets.xcassets */; };
 		0D15260A223328FB00815D5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D152608223328FB00815D5E /* LaunchScreen.storyboard */; };
 		0D152615223328FC00815D5E /* MarioKartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D152614223328FC00815D5E /* MarioKartTests.swift */; };
 		0D152620223328FC00815D5E /* MarioKartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D15261F223328FC00815D5E /* MarioKartUITests.swift */; };
+		0D15262E22332AA100815D5E /* MarioKartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D15262D22332AA100815D5E /* MarioKartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		0D1525FC223328FA00815D5E /* MarioKart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarioKart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D1525FF223328FA00815D5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0D152601223328FA00815D5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0D152604223328FA00815D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D152606223328FB00815D5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D152609223328FB00815D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		0D15261B223328FC00815D5E /* MarioKartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioKartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D15261F223328FC00815D5E /* MarioKartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioKartUITests.swift; sourceTree = "<group>"; };
 		0D152621223328FC00815D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D15262D22332AA100815D5E /* MarioKartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioKartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				0D1525FF223328FA00815D5E /* AppDelegate.swift */,
-				0D152601223328FA00815D5E /* ViewController.swift */,
+				0D15262D22332AA100815D5E /* MarioKartViewController.swift */,
 				0D152603223328FA00815D5E /* Main.storyboard */,
 				0D152606223328FB00815D5E /* Assets.xcassets */,
 				0D152608223328FB00815D5E /* LaunchScreen.storyboard */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D152602223328FA00815D5E /* ViewController.swift in Sources */,
+				0D15262E22332AA100815D5E /* MarioKartViewController.swift in Sources */,
 				0D152600223328FA00815D5E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
